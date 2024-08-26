@@ -1,0 +1,42 @@
+.navbar{
+    height: 120px;
+    background-color:black;
+    /* border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none; */
+
+}
+.Logo{
+    /* display: flex; */
+    align-items: center;
+    margin-left: -10px;
+}
+.form-control{
+background-color:black;
+color: rgb(241, 235, 235);
+}
+.form-control::placeholder{
+    color: rgb(248, 244, 244);
+}
+.form-control:hover{
+    background-color:gray;
+}
+.form-control:hover::placeholder{
+    color: rgb(13, 0, 0);
+}
+img{
+    width: 400px;
+    height: 100px;
+    object-fit: cover;
+}
+.btn-sm{
+    width: 100px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.btn-sm:hover{
+    background-color:gray;
+    color: rgb(11, 0, 0);
+}

@@ -1,0 +1,39 @@
+.LeftBar {
+    /* background-color: rgb(238, 210, 210); */
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.btn:hover {
+    transform: scale(1.3,1.1);
+    /* border: 3px solid rgb(179, 142, 142); */
+    background-color: gray;
+    color: black;
+    color: white;
+    background-color: white;
+    border-radius: none;
+    color: black;
+}
+.btn {
+    transition: .2s ease;
+     border: 1px solid rgb(56, 48, 48); 
+    color: white;
+    background-color: black;
+    height: 17%;
+    width: 290px;
+    border-right: none;
+    border-left: none;
+    margin-left: 1px;
+    font-size: 0.7cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: garamond;
+}
+.btn:focus{
+    background-color:gray;
+}
+.Img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,29 @@
+.Main{
+    /* border:1px solid red; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    /* border: 1px solid red; */
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.MImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .4s ease;
+    
+}
+/* .MImage:hover{
+    transform: scale(1.1,1.1);
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+} */
+/* .modal-body{
+    width: 800px;
+} */
